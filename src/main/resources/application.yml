@@ -1,0 +1,24 @@
+#spring:
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+#    driver-class-name: com.mysql.jdbc.Driver
+#knife4j:
+#  enable: true
+#  openapi:
+#    title: 动态定时任务
+#    description: 动态定时任务模块
+#    email: dnp@delinp.cn
+#    concat: dnp
+#    url: www.dnp.com
+#    version: 1.0
+#    license: Apache 2.0
+#    license-url: https://stackoverflow.com/
+#    terms-of-service-url: https://stackoverflow.com/
+#    group:
+#      test1:
+#        group-name: user
+#        api-rule: package
+#        api-rule-resources:
+#          - com.huazai.test
